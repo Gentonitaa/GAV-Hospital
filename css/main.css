@@ -1,9 +1,9 @@
 @import url('font-inter.css');
 :root {
-  --primarycolor: #0A76D8;
-  --primarycolorhover: #006dd3;
+  --primarycolor: #e083b0;
+  --primarycolorhover: #e083b0;
   --btnice:#D8EBFA;
-  --btnnicetext:#1b62b3;
+  --btnnicetext:#e083b0;
 }
 
 body{
