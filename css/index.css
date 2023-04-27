@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    font-family: 'Inconsolata', monospace;
 }
 
 html, body {
@@ -86,6 +87,12 @@ table{
     animation: transitionIn-Y-over 0.5s;
 }
 
+.edoc-logo{
+    position: absolute;
+    top: 47px;
+    left: 94px;
+    
+    }
 
 
 
