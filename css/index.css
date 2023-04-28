@@ -5,6 +5,7 @@ body{
     background-size: cover;
     height: 100%;
     font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
