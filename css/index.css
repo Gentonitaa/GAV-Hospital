@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    font-family: 'Inconsolata', monospace;
 }
 
 html, body {
@@ -86,6 +87,53 @@ table{
     animation: transitionIn-Y-over 0.5s;
 }
 
+.edoc-logo{
+    position: absolute;
+    top: 47px;
+    left: 94px;
+    
+    }
 
 
+.pershkrimi{
+    padding: 15px;
+background-color: white;
+color: black;
+width: 100%;
+height:470px;
+
+   
+}
+
+.pershkrimi p {
+
+width: 30%;
+position: absolute;
+bottom: -100px;
+right: 1100px;
+float: right;
+
+
+
+}
+
+.pershkrimi h1 {
+
+    width: 30%;
+    position: absolute;
+    bottom: -50px;
+    right: 1100px;
+    float: right;
+
+
+
+}
+
+
+.pershkrimi img{
+position: absolute;
+right: 300px;
+
+
+}
 
