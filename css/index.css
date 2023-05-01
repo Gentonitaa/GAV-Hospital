@@ -1,32 +1,24 @@
-body{
+body {
     background-image:url(https://media.discordapp.net/attachments/1089864703259459634/1101149189582377010/IMG_7045.png?width=1341&height=609) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
     font-family: 'Mukta', sans-serif;
     box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
   }
   
-.full-height {
+  .full-height {
     background: rgba(26, 26, 26, 0.548);
     background-attachment: fixed;
-    max-height: 100vh;
     height: 100vh;
-
-
-}
-table{
+  }
+  
+  table{
     width: 100%;
-    padding-top: 5px;
-    
-}
-.heading-text{
+    padding-top: 5%;
+  }
+  
+  .heading-text{
     color: white;
     font-size: 42px;
     font-weight: 700;
@@ -34,117 +26,201 @@ table{
     margin-top: 15%;
     text-align: center;
     margin-bottom: 0;
-}
-
-.sub-text2{
+  }
+  
+  .sub-text2{
     color: rgba(255, 255, 255, 0.5);
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
     text-align: center;
     margin-top: 0;
-}
-
-
-.register-btn{
-    background-color: rgba(240, 248, 255, 0.589);
-    color: #b48091;
-}
-
-
-.edoc-logo{
+  }
+  
+  .register-btn{
+    background-color: rgba(205, 87, 178, 0.589);
+    color: #c4869b;
+  }
+  
+  .edoc-logo{
     color: white;
     font-weight: bolder;
     font-size: 20px;
     padding-left: 20px;
     animation: transitionIn-Y-over 0.5s;
-}
-
-.edoc-logo-sub{
+  }
+  
+  .edoc-logo-sub{
     color: rgba(255, 255, 255, 0.733);
     font-size: 12px;
-
-}
-
-
-.nav-item{
+  }
+  
+  .nav-item{
     color: rgba(255, 255, 255, 0.671);
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     animation: transitionIn-Y-over 0.5s;
-}
-
-.nav-item:hover{
+  }
+  
+  .nav-item:hover{
     color: #f0f0f0;
-
-}
-
-.footer-hashen{
+  }
+  
+  .footer-hashen{
     position: absolute;
     bottom: 0;
     left: 45%;
     font-size: 13px;
     animation: transitionIn-Y-over 0.5s;
-}
-
-.edoc-logo{
+  }
+  
+  .edoc-logo{
     position: absolute;
     top: 47px;
     left: 94px;
-    
-    }
-
-
-.pershkrimi{
-    padding: 15px;
-background-color: white;
-color: black;
-width: 100%;
-height:490px;
-
-   
-}
-
-.pershkrimi p {
-
-width: 30%;
-position: absolute;
-bottom: -300px;
-right: 1000px;
-float: right;
-
-
-
-}
-
-.pershkrimi h1 {
-
-    width: 30%;
-    position: absolute;
-    bottom: -150px;
-    right: 1000px;
-    float: right;
-
-
-
-}
-
-
-.pershkrimi img{
-position: absolute;
-right: 350px;
-bottom: -440px;
-
-
-}
-
-@media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
-    .popup{
-      width: 70%;
-    }
+  }
+  
+  .pershkrimi {
+    padding: 5%;
+    background-color: white;
+    color: black;
+    height: auto;
+  }
+  
+  .pershkrimi p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .pershkrimi h1 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .pershkrimi img {
+    display: block;
+  
   }
 
+
+
+
+  
+
+  footer {
+    background: #7ba0b9;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #9bb0dc;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
