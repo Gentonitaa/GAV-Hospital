@@ -239,10 +239,7 @@
                                         echo date("l",strtotime("+1 week"));
                                         ?>
                                     </p>
-                                    <p style="padding-bottom:19px;padding-left:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Appointments until 7 days<br>
-                                        More details available in @Appointment section.
-                                    </p>
+                                    
 
                                 </td>
                                 <td>
@@ -251,10 +248,7 @@
                                         echo date("l",strtotime("+1 week"));
                                         ?>
                                     </p>
-                                    <p style="padding-bottom:19px;text-align:right;padding-right:50px;font-size:15px;font-weight:500;color:#212529e3;line-height: 20px;">
-                                        Here's Quick access to Upcoming Sessions that Scheduled until 7 days<br>
-                                        Add,Remove and Many features available in @Schedule section.
-                                    </p>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -299,7 +293,7 @@
                                                     <td colspan="3">
                                                     <br><br><br><br>
                                                     <center>
-                                                    <img src="../img/notfound.svg" width="25%">
+                                                   
                                                     
                                                     <br>
                                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
@@ -394,7 +388,7 @@
                                                     <td colspan="4">
                                                     <br><br><br><br>
                                                     <center>
-                                                    <img src="../img/notfound.svg" width="25%">
+                                                    
                                                     
                                                     <br>
                                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
