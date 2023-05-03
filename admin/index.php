@@ -148,9 +148,7 @@
                                 ?>
                                 </p>
                             </td>
-                            <td width="10%">
-                                <button  class="btn-label"  style="display: flex;justify-content: center;align-items: center;"> width="100%"></button>
-                            </td>
+                            
         
         
                         </tr>
