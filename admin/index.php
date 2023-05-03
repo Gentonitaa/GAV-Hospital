@@ -133,7 +133,7 @@
                                 </p>
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                     <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Europe/Paris');
         
                                 $today = date('Y-m-d');
                                 echo $today;
@@ -149,7 +149,7 @@
                                 </p>
                             </td>
                             <td width="10%">
-                                <button  class="btn-label"  style="display: flex;justify-content: center;align-items: center;"><img src="../img/calendar.svg" width="100%"></button>
+                                <button  class="btn-label"  style="display: flex;justify-content: center;align-items: center;"> width="100%"></button>
                             </td>
         
         
@@ -187,7 +187,7 @@
                                                     Patients &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 </div>
                                         </div>
-                                                <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/patients-hover.svg');"></div>
+                                               
                                     </div>
                                 </td>
                                 <td style="width: 25%;">
@@ -200,7 +200,7 @@
                                                     NewBooking &nbsp;&nbsp;
                                                 </div>
                                         </div>
-                                                <div class="btn-icon-back dashboard-icons" style="margin-left: 0px;background-image: url('../img/icons/book-hover.svg');"></div>
+                                             
                                     </div>
                                 </td>
                                 <td style="width: 25%;">
@@ -213,7 +213,7 @@
                                                     Today Sessions
                                                 </div>
                                         </div>
-                                                <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/session-iceblue.svg');"></div>
+
                                     </div>
                                 </td>
                                 
