@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
-('admin@edoc.com', '123');
+('admin@gav.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -245,7 +245,7 @@ CREATE TABLE IF NOT EXISTS `webuser` (
 --
 
 INSERT INTO `webuser` (`email`, `usertype`) VALUES
-('admin@edoc.com', 'a'),
+('admin@gav.com', 'a'),
 ('doctor@edoc.com', 'd'),
 ('patient@edoc.com', 'p'),
 ('emhashenudara@gmail.com', 'p');
