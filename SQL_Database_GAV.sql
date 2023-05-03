@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
-('admin@live.com', 'admin12');
+('admin@gav.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `appointment` (
 --
 
 INSERT INTO `appointment` (`appoid`, `pid`, `apponum`, `scheduleid`, `appodate`) VALUES
-(1, 1, 1, 1, '2022-06-03');
+(1, 1, 1, 1, '2023-02-03');
 
 -- --------------------------------------------------------
 
@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 --
 
 INSERT INTO `doctor` (`docid`, `docemail`, `docname`, `docpassword`, `docnic`, `doctel`, `specialties`) VALUES
-(1, 'doctor@edoc.com', 'Test Doctor', '123', '000000000', '0110000000', 1);
+(1, 'doctor@gav.com', 'Test Doctor', 'doc', '400000', '045666878', 1);
 
 -- --------------------------------------------------------
 
@@ -99,8 +99,8 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@edoc.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000'),
-(2, 'emhashenudara@gmail.com', 'Hashen Udara', '123', 'Sri Lanka', '0110000000', '2022-06-03', '0700000000');
+(1, 'patient@gav.com', 'Test Patient', '123', 'Prishtina', '400000', '1999-01-01', '0492214487'),
+(2, 'adeahasani@gav.com', 'Adea Hasani', '123', 'Vushtrri', '400000', '2023-06-03', '0458877557');
 
 -- --------------------------------------------------------
 
@@ -126,13 +126,13 @@ CREATE TABLE IF NOT EXISTS `schedule` (
 
 INSERT INTO `schedule` (`scheduleid`, `docid`, `title`, `scheduledate`, `scheduletime`, `nop`) VALUES
 (1, '1', 'Test Session', '2050-01-01', '18:00:00', 50),
-(2, '1', '1', '2022-06-10', '20:36:00', 1),
-(3, '1', '12', '2022-06-10', '20:33:00', 1),
-(4, '1', '1', '2022-06-10', '12:32:00', 1),
-(5, '1', '1', '2022-06-10', '20:35:00', 1),
-(6, '1', '12', '2022-06-10', '20:35:00', 1),
-(7, '1', '1', '2022-06-24', '20:36:00', 1),
-(8, '1', '12', '2022-06-10', '13:33:00', 1);
+(2, '1', '1', '2023-06-10', '20:36:00', 1),
+(3, '1', '12', '2023-06-10', '20:33:00', 1),
+(4, '1', '2', '2023-06-10', '12:32:00', 1),
+(5, '1', '3', '2023-06-10', '20:35:00', 1),
+(6, '1', '12', '2023-06-10', '20:35:00', 1),
+(7, '1', '11', '2023-06-24', '20:36:00', 1),
+(8, '1', '12', '2023-06-10', '13:33:00', 1);
 
 -- --------------------------------------------------------
 
@@ -227,10 +227,10 @@ CREATE TABLE IF NOT EXISTS `webuser` (
 --
 
 INSERT INTO `webuser` (`email`, `usertype`) VALUES
-('admin@live.com', 'a'),
-('doctor@edoc.com', 'd'),
-('patient@edoc.com', 'p'),
-('emhashenudara@gmail.com', 'p');
+('admin@gav.com', 'a'),
+('doctor@gav.com', 'd'),
+('patient@gav.com', 'p'),
+('adeahasani@gav.com', 'p');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
