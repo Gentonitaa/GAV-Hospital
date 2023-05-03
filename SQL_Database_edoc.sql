@@ -117,8 +117,8 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@edoc.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000'),
-(2, 'emhashenudara@gmail.com', 'Hashen Udara', '123', 'Sri Lanka', '0110000000', '2022-06-03', '0700000000');
+(1, 'Eris@edoc.com', 'Eris Berisha', '123', 'Prishtine', '0000000000', '2000-01-01', '049111222'),
+(2, 'anila@gmail.com', 'Anila Thaci', '123', 'Decan', '0110000000', '2022-06-03', '045666777');
 
 -- --------------------------------------------------------
 
