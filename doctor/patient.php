@@ -174,16 +174,14 @@
                         </p>
                         <p class="heading-sub12" style="padding: 0;margin: 0;">
                             <?php 
-                        date_default_timezone_set('Asia/Kolkata');
+                        date_default_timezone_set('Europe/Paris');
 
                         $date = date('Y-m-d');
                         echo $date;
                         ?>
                         </p>
                     </td>
-                    <td width="10%">
-                        <button  class="btn-label"  style="display: flex;justify-content: center;align-items: center;"><img src="../img/calendar.svg" width="100%"></button>
-                    </td>
+                    
 
 
                 </tr>
