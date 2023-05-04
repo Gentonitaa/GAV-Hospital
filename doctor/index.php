@@ -142,9 +142,7 @@
                                 ?>
                                 </p>
                             </td>
-                            <td width="10%">
-                                <button  class="btn-label"  style="display: flex;justify-content: center;align-items: center;"><img src="../img/calendar.svg" width="100%"></button>
-                            </td>
+                            
         
         
                         </tr>
@@ -157,8 +155,8 @@
                         <td >
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Thanks for joinnig with us. We are always trying to get you a complete service<br>
-                            You can view your dailly schedule, Reach Patients Appointment at home!<br><br>
+                            <p>Thanks for joinnig with us. <br>
+                               You can view your dailly schedule And Make Appointments at home!<br><br>
                             </p>
                             <a href="appointment.php" class="non-style-link"><button class="btn-primary btn" style="width:30%">View My Appointments</button></a>
                             <br>
@@ -199,7 +197,7 @@
                                                                     All Doctors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </div>
                                                         </div>
-                                                                <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/doctors-hover.svg');"></div>
+                                                                
                                                     </div>
                                                 </td>
                                                 <td style="width: 25%;">
@@ -212,7 +210,7 @@
                                                                     All Patients &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </div>
                                                         </div>
-                                                                <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/patients-hover.svg');"></div>
+                                                                
                                                     </div>
                                                 </td>
                                                 </tr>
@@ -227,7 +225,7 @@
                                                                     NewBooking &nbsp;&nbsp;
                                                                 </div>
                                                         </div>
-                                                                <div class="btn-icon-back dashboard-icons" style="margin-left: 0px;background-image: url('../img/icons/book-hover.svg');"></div>
+                                                                
                                                     </div>
                                                     
                                                 </td>
@@ -242,7 +240,7 @@
                                                                     Today Sessions
                                                                 </div>
                                                         </div>
-                                                                <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/session-iceblue.svg');"></div>
+                                                               
                                                     </div>
                                                 </td>
                                                 
@@ -299,7 +297,7 @@
                                                     <td colspan="4">
                                                     <br><br><br><br>
                                                     <center>
-                                                    <img src="../img/notfound.svg" width="25%">
+                                                  
                                                     
                                                     <br>
                                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
