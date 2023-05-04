@@ -115,7 +115,7 @@
                         <p class="heading-sub12" style="padding: 0;margin: 0;">
                             <?php 
 
-                        date_default_timezone_set('Europe/Asia');
+                        date_default_timezone_set('Europe/Paris');
 
                         $today = date('Y-m-d');
                         echo $today;
