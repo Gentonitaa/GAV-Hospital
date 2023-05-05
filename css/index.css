@@ -10,20 +10,36 @@ body {
   }
 
   nav {
-    max-width: 960px;
+    position: absolute;
+    top: 3px;
+    right: 50px;
+    max-width: 94%;
+    height: 7vh;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 0 auto;
+    
+    
+  }
+  .logo{
+
+font-style: italic;
+text-shadow: 1px 1px black;
+color: #007bb7;
+padding: 15px;
+font-size: 25px;
+
   }
   
   nav ul {
-    text-align: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    text-align: right;
+      
   
   }
   
   nav ul li {
     display: inline-block;
+
   }
   
   nav ul li a {
@@ -34,12 +50,14 @@ body {
     font-size: 18px;
     text-decoration: none;
     display: block;
+  
   }
   
   nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     color: rgba(0, 35, 122, 0.7);
+    height: 60px;
   }
     
   .full-height {
@@ -139,6 +157,7 @@ body {
   
   .pershkrimi img {
     display: block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   
   }
 
