@@ -42,6 +42,8 @@ CREATE TABLE IF NOT EXISTS `admin` (
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
 ('admin@edoc.com', '123');
 
+
+
 -- --------------------------------------------------------
 
 --
