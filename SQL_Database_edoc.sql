@@ -42,6 +42,8 @@ CREATE TABLE IF NOT EXISTS `admin` (
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
 ('admin@gav.com', 'admin');
 
+UPDATE `admin` SET `aemail` = 'ninaa@gav.com' WHERE `admin`.`aemail` = 'admin@edoc.com';
+
 -- --------------------------------------------------------
 
 --
